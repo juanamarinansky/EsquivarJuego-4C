@@ -15,6 +15,7 @@ void Start()
 {
     if (col.gameObject.CompareTag ("Piso"))
     {
+        cajaMovementScript.AumentarVelocidad(0.2f);
         cajaMovementScript.MoveBoxToRandomPosition();
     }
 }

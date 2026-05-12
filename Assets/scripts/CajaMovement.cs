@@ -39,4 +39,10 @@ public class CajaMovement : MonoBehaviour
         transform.position = newPosition;
 
     }
+public void AumentarVelocidad(float incremento)
+{ 
+    speed += incremento;
 }
+
+}
+
